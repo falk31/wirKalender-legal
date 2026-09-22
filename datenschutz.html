@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung – WirKalender</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="app-header">
+  <img src="icon.png" alt="">
+  <span class="app-name">WirKalender</span>
+</header>
+<main>
+  <h1>Datenschutzerklärung</h1>
+  <p class="stand">Stand: September 2026</p>
+
+  <p>Diese Erklärung informiert darüber, welche personenbezogenen Daten WirKalender
+  verarbeitet, zu welchem Zweck und auf welcher Rechtsgrundlage.</p>
+
+  <h2>1. Verantwortlicher</h2>
+  <p>
+    Falk Haase<br>
+    Am Weingarten 110<br>
+    99439 Am Ettersberg<br>
+    E-Mail: <a href="mailto:wirkalender.thread550@passinbox.com">wirkalender.thread550@passinbox.com</a>
+  </p>
+  <p>Ein gesonderter Datenschutzbeauftragter ist nicht bestellt, da dies für ein Projekt
+  dieser Größe gesetzlich nicht erforderlich ist (§38 BDSG).</p>
+
+  <h2>2. Konto &amp; Profil</h2>
+  <p>Bei der Registrierung werden E-Mail-Adresse und Anzeigename gespeichert. Zusätzlich
+  können freiwillig ein Bundesland (für Ferienzeiten) sowie eine Adresse (PLZ, Ort, Straße,
+  Hausnummer) bzw. ein eigener Kalender-Link (für automatische Müllabfuhrtermine) hinterlegt
+  werden. Diese Daten werden bei unserem Auftragsverarbeiter Supabase in einem Rechenzentrum
+  in Frankfurt am Main (EU) gespeichert. Rechtsgrundlage ist die Vertragserfüllung (Art. 6
+  Abs. 1 lit. b DSGVO, Nutzung der App).</p>
+  <p>Hinweis: Mitglieder eines mit dir geteilten Kalenders können deine E-Mail-Adresse und
+  deinen Anzeigenamen einsehen (nötig, um Kalendermitglieder anzuzeigen).</p>
+
+  <h2>3. Termine &amp; Kalenderinhalte</h2>
+  <p>Titel, Beschreibung, Ort, Ortskoordinaten und eine hinterlegte Kontakttelefonnummer
+  werden clientseitig Ende-zu-Ende verschlüsselt (AES-256-GCM), bevor sie gespeichert werden –
+  der Schlüssel wird ausschließlich auf deinem Gerät erzeugt und verlässt es nie
+  unverschlüsselt. Beim Einladen weiterer Kalendermitglieder wird der Schlüssel nur
+  verschlüsselt über den Einladungslink übertragen. Start-/Endzeit, Termin-Typ und
+  Teilnehmerzuordnung bleiben unverschlüsselt, da sie für die Funktion der App (z.&nbsp;B.
+  Erinnerungen, Anzeige) benötigt werden. Rechtsgrundlage: Vertragserfüllung (Art. 6 Abs. 1
+  lit. b DSGVO).</p>
+  <p>Die Volltextsuche über Termine, Geburtstage und Aufgaben arbeitet ausschließlich lokal
+  auf den bereits entschlüsselten Daten deines Geräts – dabei wird nichts an unsere Server
+  oder Dritte übertragen.</p>
+
+  <h2>4. Standort &amp; Anreisezeit (optional)</h2>
+  <p>Wird die Funktion „Anreisezeit berücksichtigen“ genutzt, wird einmalig dein aktueller
+  GPS-Standort bzw. eine von dir eingegebene Startadresse verwendet. Die Umwandlung von
+  Adressen in Koordinaten erfolgt über die native Geokodierung deines Betriebssystems (kann
+  intern Google- bzw. Apple-Dienste einbeziehen). Zur Berechnung der Fahrzeit werden die
+  betroffenen Koordinaten an den öffentlichen Dienst router.project-osrm.org übertragen.
+  Rechtsgrundlage: Einwilligung durch aktive Nutzung der Funktion (Art. 6 Abs. 1 lit. a
+  DSGVO).</p>
+
+  <h2>5. Wetteranzeige (optional)</h2>
+  <p>Ist die Wetteranzeige aktiviert, werden gerundete GPS-Koordinaten an den Dienst
+  api.open-meteo.com übermittelt, um eine 7-Tage-Vorhersage abzurufen. Rechtsgrundlage:
+  Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).</p>
+
+  <h2>6. Ferien- und Feiertage (optional)</h2>
+  <p>Ist ein Bundesland hinterlegt, wird der Bundesland-Code an openholidaysapi.org
+  übermittelt, um Schulferien sowie bundeseinheitliche und landesspezifische gesetzliche
+  Feiertage anzuzeigen – zwei getrennt abschaltbare Anzeige-Ebenen über dieselbe
+  Schnittstelle. Es werden dabei keine weiteren personenbezogenen Daten übertragen.</p>
+
+  <h2>7. Müllabfuhrtermine (optional)</h2>
+  <p>Beim automatischen Abruf von Müllabfuhrterminen wird deine Adresse (Ort, Straße,
+  Hausnummer) an web.c-trace.de übermittelt, sofern deine Kommune dort hinterlegt ist.
+  Alternativ kannst du einen eigenen, von deinem Entsorger bereitgestellten Kalender-Link
+  hinterlegen – dieser wird dann direkt abgerufen. Rechtsgrundlage: Einwilligung durch aktive
+  Nutzung (Art. 6 Abs. 1 lit. a DSGVO).</p>
+
+  <h2>8. Kontakte-Import für Geburtstage (optional)</h2>
+  <p>Mit deiner Erlaubnis kann die App lesend auf deine Gerätekontakte zugreifen, um
+  Geburtstage als Termine zu importieren. Es werden nur die von dir ausgewählten Kontakte
+  übernommen (Name, Geburtsdatum, ggf. Telefonnummer), nicht die gesamte Kontaktliste. Eine
+  geräteinterne Kontakt-Referenz-ID wird zusätzlich unverschlüsselt gespeichert, um
+  Mehrfach-Importe zu vermeiden. Rechtsgrundlage: Einwilligung (Art. 6 Abs. 1 lit. a DSGVO,
+  Kontakte-Berechtigung).</p>
+
+  <h2>9. Geräte-Kalender-Import (optional)</h2>
+  <p>Mit deiner Erlaubnis liest die App aus dem Kalender-Speicher deines Geräts (z.&nbsp;B.
+  dort eingerichtete Google-/iCloud-/Exchange-Konten). Übernommen werden nur die von dir
+  ausgewählten Termine aus den von dir gewählten Kalendern und dem gewählten Zeitraum; sie
+  landen in deinem WirKalender und sind dort wie jeder andere Termin für alle Mitglieder des
+  Zielkalenders sichtbar. Rechtsgrundlage: Einwilligung durch aktive Nutzung (Art. 6 Abs. 1
+  lit. a DSGVO, Kalender-Berechtigung).</p>
+
+  <h2>10. Kalender per Link abonnieren (ICS/webcal) (optional)</h2>
+  <p>Trägst du einen öffentlichen ICS-/webcal-Link ein (z.&nbsp;B. eine „Geheime Adresse im
+  iCal-Format“ deines Google-Kalenders), ruft dein Gerät diesen Link beim Abgleich direkt ab –
+  nicht über unsere Server. Der Link selbst wird unverschlüsselt bei unserem
+  Auftragsverarbeiter Supabase gespeichert, damit er für spätere Abgleiche wiederverwendet
+  werden kann; einsehbar ist er nur für Mitglieder des Kalenders, dem du das Abo hinzufügst.
+  Da ein solcher Link Lesezugriff auf einen fremden Kalender gewähren kann, solltest du ihn
+  nur für Kalender hinterlegen, deren Freigabe an die übrigen Mitglieder für dich
+  unproblematisch ist. Rechtsgrundlage: Einwilligung durch aktive Nutzung (Art. 6 Abs. 1
+  lit. a DSGVO).</p>
+
+  <h2>11. Foto-/PDF-Plan-Import (optional, nur Android)</h2>
+  <p>Beim Import eines Stunden-, Schicht-, Müllabfuhr- oder Geburtstagsplans per Foto oder PDF
+  läuft die Texterkennung vollständig auf deinem Gerät (Google ML Kit). Das Foto bzw. die
+  gerenderte PDF-Seite wird zu keinem Zeitpunkt an einen Server übertragen und im Anschluss an
+  die Erkennung gelöscht.</p>
+
+  <h2>12. Termine teilen &amp; Kalender-Export (optional)</h2>
+  <p>Teilst du einen Termin, eine Serie oder deinen ganzen Kalender, wird daraus eine
+  ICS-Datei erzeugt und über den nativen Teilen-Dialog deines Betriebssystems an die von dir
+  gewählte App übergeben (z.&nbsp;B. Mail, Nachrichten, eine Cloud). Die darin enthaltenen,
+  zuvor entschlüsselten Termininhalte (Titel, Beschreibung, Ort, Zeiten) liegen damit
+  außerhalb unseres Einflussbereichs; für die weitere Verarbeitung gilt die
+  Datenschutzerklärung der gewählten App. Rechtsgrundlage: Einwilligung durch aktive Nutzung
+  (Art. 6 Abs. 1 lit. a DSGVO).</p>
+
+  <h2>13. Benachrichtigungen</h2>
+  <p>Termin-Erinnerungen werden in erster Linie lokal auf deinem Gerät geplant und dort direkt
+  vom Betriebssystem ausgelöst. Dafür gibt es keinen Push-Server und keine dafür erzeugten
+  Geräte-Tokens.</p>
+  <p>Zusätzlich kannst du optional (Seitenleiste → Berechtigungen → „Push-Benachrichtigungen“)
+  Push-Benachrichtigungen aktivieren. Das hat zwei Effekte: Erstens erfährst du sofort, wenn
+  dich jemand zu einem Termin hinzufügt – auch bei geschlossener App. Zweitens werden dir
+  fällige Termin-Erinnerungen zusätzlich zur lokalen Benachrichtigung als Push zugestellt – als
+  Sicherheitsnetz für den Fall, dass die lokale Benachrichtigung auf deinem Gerät ausnahmsweise
+  nicht zuverlässig auslöst (z.&nbsp;B. wegen aggressiver Akku-Optimierung mancher Hersteller).
+  Dafür wird dieses Gerät beim Push-Dienstleister OneSignal (OneSignal Inc., USA) mit deinem
+  Konto verknüpft, solange der Schalter aktiv ist; entfernst du ihn wieder oder meldest du dich
+  ab, wird die Verknüpfung aufgelöst. OneSignal leitet die Zustellung technisch über Googles
+  bzw. Apples Push-Dienste weiter. Übermittelt wird dabei in beiden Fällen ausschließlich ein
+  allgemeiner Hinweistext ohne Termin-Inhalt (z.&nbsp;B. „Erinnerung an einen Termin“) – Titel,
+  Ort und Beschreibung liegen bei uns ohnehin nur verschlüsselt vor und sind auch für diese
+  Funktion nicht einsehbar. Für die Erinnerungs-Zustellung prüft ein serverseitiger, minütlich
+  laufender Abgleich, welche Erinnerungen gerade fällig sind; dabei werden keine Termininhalte
+  verarbeitet, nur Zeitpunkt und Teilnehmer-ID. Rechtsgrundlage: Einwilligung durch aktives
+  Einschalten (Art. 6 Abs. 1 lit. a DSGVO).</p>
+
+  <h2>14. Geburtstagsnachrichten / Messenger-Verknüpfung (optional)</h2>
+  <p>Beim Versenden einer Geburtstagsnachricht werden die hinterlegte Telefonnummer und ein
+  vorformulierter Text lokal an die von dir gewählte, bereits installierte Messenger-App
+  (WhatsApp, SMS, Threema oder Signal) übergeben. Es werden dabei keine Daten an unsere
+  eigenen Server übertragen; für die weitere Verarbeitung durch die jeweilige Messenger-App
+  gilt deren eigene Datenschutzerklärung.</p>
+
+  <h2>15. Lokale Speicherung auf deinem Gerät</h2>
+  <p>Neben den genannten Punkten speichert die App lokal (nicht auf unseren Servern):
+  Anzeige-Einstellungen, Zwischenspeicher für Ferien-/Wetterdaten, aggregierte (nicht im
+  Klartext gespeicherte) Präferenzen zu Geburtstagsnachrichten sowie noch nicht eingelöste
+  Einladungs-Links. Diese Daten werden beim Abmelden bzw. bei Löschung deines Accounts
+  vollständig von deinem Gerät entfernt.</p>
+
+  <h2>16. Keine Analyse- oder Tracking-Dienste</h2>
+  <p>Die App enthält keine Analytics-, Tracking- oder Crash-Reporting-Dienste Dritter. Fehler
+  werden ausschließlich in unserer eigenen Datenbank protokolliert (siehe Punkt 17), nicht
+  über einen externen Dienst.</p>
+
+  <h2>17. Fehlerprotokoll</h2>
+  <p>Erscheint in der App eine Fehlermeldung, wird sie zusammen mit der auslösenden Funktion
+  (z.&nbsp;B. „Termin speichern“), einem technischen Fehlercode, dem Fehlertext und der
+  Betriebssystem-Version in unserer Datenbank bei Supabase (Frankfurt am Main, EU) gespeichert
+  – unabhängig davon, ob der Fehler auf dem Server oder auf deinem Gerät entstanden ist. Zweck
+  ist ausschließlich, Fehler eingrenzen und beheben zu können.</p>
+  <p>Das Protokoll enthält keine personenbezogenen Daten. Es wird weder deine Konto-Kennung
+  noch sonst ein Merkmal gespeichert, über das sich ein Eintrag dir zuordnen ließe. Vor dem
+  Senden entfernt die App automatisch alles aus dem Fehlertext, was ein Inhalt sein könnte:
+  E-Mail-Adressen, Telefonnummern, interne Kennnummern, verschlüsselte Feldwerte,
+  Adressbestandteile von Links sowie in Anführungszeichen stehende Werte. Übrig bleibt die
+  technische Struktur des Fehlers – Fehlertyp, Fehlercode und betroffene Datenbanktabelle.
+  Zusammengehörige Fehler werden über eine Zufallskennung gruppiert, die bei jedem App-Start
+  neu entsteht und nirgends gespeichert wird; dein Gerät ist darüber nicht wiedererkennbar.</p>
+  <p>Eine Auswertung deines Nutzungsverhaltens findet nicht statt, und die Einträge werden
+  nicht an Dritte weitergegeben. Sie werden nach 90 Tagen automatisch gelöscht.
+  Rechtsgrundlage ist unser berechtigtes Interesse an einem fehlerfreien Betrieb der App
+  (Art. 6 Abs. 1 lit. f DSGVO).</p>
+
+  <h2>18. Empfänger und Drittländer</h2>
+  <p>Empfänger deiner Daten sind ausschließlich: unser Hosting-Dienstleister Supabase
+  (Auftragsverarbeitung, Rechenzentrum Frankfurt am Main, EU) sowie – nur bei aktiver Nutzung
+  der jeweiligen optionalen Funktion – router.project-osrm.org, api.open-meteo.com,
+  openholidaysapi.org, web.c-trace.de bzw. dein selbst hinterlegter Entsorger- oder
+  ICS-/webcal-Kalenderlink, die von dir beim Teilen eines Termins bzw. für
+  Geburtstagsnachrichten gewählte App, sowie – nur wenn du Push-Benachrichtigungen aktivierst
+  (siehe Punkt 13) – OneSignal Inc. (USA) für die Geräteverknüpfung und den allgemeinen
+  Hinweistext, das die Zustellung technisch über Googles bzw. Apples Push-Dienste weiterleitet.
+  OneSignal ist nach dem EU-US Data Privacy Framework zertifiziert; eine darüberhinausgehende
+  Übermittlung in Drittländer außerhalb der EU findet durch uns nicht statt.</p>
+
+  <h2>19. Speicherdauer</h2>
+  <p>Deine Daten werden gespeichert, solange dein Konto besteht bzw. bis du sie selbst
+  löschst. Bei Löschung deines Accounts (Einstellungen → Account löschen) werden deine Daten
+  dauerhaft entfernt; von dir mit anderen geteilte Kalender/Termine bleiben für die übrigen
+  Mitglieder erhalten und gehen automatisch auf ein anderes Mitglied über. Einträge im
+  Fehlerprotokoll (Punkt 17) sind keinem Konto zugeordnet und daher von der Account-Löschung
+  nicht betroffen; sie werden unabhängig davon nach 90 Tagen automatisch gelöscht.</p>
+
+  <h2>20. Deine Rechte</h2>
+  <p>Du hast das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung
+  deiner Daten sowie auf Datenübertragbarkeit und Widerspruch gegen die Verarbeitung. Wende
+  dich dafür an die oben genannte Kontaktadresse. Außerdem hast du das Recht, dich bei einer
+  Datenschutz-Aufsichtsbehörde zu beschweren.</p>
+
+  <nav class="legal-links">
+    <a href="index.html">Übersicht</a>
+    <a href="impressum.html">Impressum</a>
+  </nav>
+</main>
+</body>
+</html>
