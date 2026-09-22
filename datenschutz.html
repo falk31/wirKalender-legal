@@ -157,9 +157,16 @@
   vollständig von deinem Gerät entfernt.</p>
 
   <h2>16. Keine Analyse- oder Tracking-Dienste</h2>
-  <p>Die App enthält keine Analytics-, Tracking- oder Crash-Reporting-Dienste Dritter. Fehler
-  werden ausschließlich in unserer eigenen Datenbank protokolliert (siehe Punkt 17), nicht
-  über einen externen Dienst.</p>
+  <p>Die App enthält keine Analytics- oder Tracking-Dienste Dritter. Deine Nutzung der App wird
+  nicht ausgewertet, und Fehler werden in unserer eigenen Datenbank protokolliert (siehe
+  Punkt 17), nicht über einen externen Crash-Reporting-Dienst.</p>
+  <p>Eine Einschränkung betrifft ausschließlich Nutzer, die Push-Benachrichtigungen
+  eingeschaltet haben (Punkt 13): Das dafür nötige OneSignal-SDK erfasst eigene technische
+  Diagnosedaten zur Stabilität seiner eigenen Bestandteile – im Wesentlichen Abstürze und
+  Blockaden der App, jeweils mit Gerätemodell, Betriebssystem-, App- und SDK-Version – und
+  übermittelt sie an OneSignal. Darauf haben wir keinen Einfluss, es ist Teil des SDK. Ist der
+  Schalter aus, wird das SDK gar nicht erst gestartet: Ohne eingeschaltete
+  Push-Benachrichtigungen entstehen und übertragen sich diese Daten also nicht.</p>
 
   <h2>17. Fehlerprotokoll</h2>
   <p>Erscheint in der App eine Fehlermeldung, wird sie zusammen mit der auslösenden Funktion
