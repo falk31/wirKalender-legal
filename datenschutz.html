@@ -31,9 +31,9 @@
 
   <h2>2. Konto &amp; Profil</h2>
   <p>Bei der Registrierung werden E-Mail-Adresse und Anzeigename gespeichert. Zusätzlich
-  können freiwillig ein Bundesland (für Ferienzeiten) sowie eine Adresse (PLZ, Ort, Straße,
-  Hausnummer) bzw. ein eigener Kalender-Link (für automatische Müllabfuhrtermine) hinterlegt
-  werden. Diese Daten werden bei unserem Auftragsverarbeiter Supabase in einem Rechenzentrum
+  können freiwillig ein Bundesland (für Ferienzeiten) sowie ein eigener Kalender-Link (für
+  Müllabfuhrtermine) hinterlegt werden. Eine Wohnadresse wird nicht erhoben. Diese Daten werden
+  bei unserem Auftragsverarbeiter Supabase in einem Rechenzentrum
   in Frankfurt am Main (EU) gespeichert. Rechtsgrundlage ist die Vertragserfüllung (Art. 6
   Abs. 1 lit. b DSGVO, Nutzung der App).</p>
   <p>Hinweis: Mitglieder eines mit dir geteilten Kalenders können deine E-Mail-Adresse und
@@ -63,7 +63,8 @@
 
   <h2>5. Wetteranzeige (optional)</h2>
   <p>Ist die Wetteranzeige aktiviert, werden gerundete GPS-Koordinaten an den Dienst
-  api.open-meteo.com übermittelt, um eine 7-Tage-Vorhersage abzurufen. Rechtsgrundlage:
+  api.brightsky.dev übermittelt, um eine 7-Tage-Vorhersage abzurufen (Bright Sky stellt die
+  offenen Daten des Deutschen Wetterdienstes bereit). Rechtsgrundlage:
   Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).</p>
 
   <h2>6. Ferien- und Feiertage (optional)</h2>
@@ -73,10 +74,11 @@
   Schnittstelle. Es werden dabei keine weiteren personenbezogenen Daten übertragen.</p>
 
   <h2>7. Müllabfuhrtermine (optional)</h2>
-  <p>Beim automatischen Abruf von Müllabfuhrterminen wird deine Adresse (Ort, Straße,
-  Hausnummer) an web.c-trace.de übermittelt, sofern deine Kommune dort hinterlegt ist.
-  Alternativ kannst du einen eigenen, von deinem Entsorger bereitgestellten Kalender-Link
-  hinterlegen – dieser wird dann direkt abgerufen. Rechtsgrundlage: Einwilligung durch aktive
+  <p>Müllabfuhrtermine werden über einen Kalender-Link abgerufen, den du selbst von der Website
+  deines Entsorgers holst und in der App hinterlegst. Dein Gerät ruft diesen Link direkt ab –
+  nicht über unsere Server –, und es wird dabei keine Adresse von dir übermittelt. Der Link
+  selbst wird unverschlüsselt bei unserem Auftragsverarbeiter Supabase gespeichert, damit er
+  beim nächsten Abruf wiederverwendet werden kann. Rechtsgrundlage: Einwilligung durch aktive
   Nutzung (Art. 6 Abs. 1 lit. a DSGVO).</p>
 
   <h2>8. Kontakte-Import für Geburtstage (optional)</h2>
@@ -191,8 +193,8 @@
   <p>Empfänger deiner Daten sind ausschließlich: unser Hosting-Dienstleister Supabase
   (Auftragsverarbeitung, Rechenzentrum Frankfurt am Main, EU) sowie – nur bei aktiver Nutzung
   der jeweiligen optionalen Funktion – routing.openstreetmap.de (FOSSGIS e.&nbsp;V.),
-  api.open-meteo.com,
-  openholidaysapi.org, web.c-trace.de bzw. dein selbst hinterlegter Entsorger- oder
+  api.brightsky.dev,
+  openholidaysapi.org, dein selbst hinterlegter Entsorger- oder
   ICS-/webcal-Kalenderlink, die von dir beim Teilen eines Termins bzw. für
   Geburtstagsnachrichten gewählte App, sowie – nur wenn du Push-Benachrichtigungen aktivierst
   (siehe Punkt 13) – OneSignal Inc. (USA) für die Geräteverknüpfung und den allgemeinen
